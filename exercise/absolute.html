@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .body{
+                position: relative;
+                height: 3000px;
+            }
+            .x{
+                position: absolute;
+                left:-20px;
+                top:-20px;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 40px;
+                font-weight: bold;
+                background-color: black;
+                color:white;
+                z-index: 1;
+                font-family: Arial;
+            }
+            .box{
+                position: fixed;
+                height: 180px;
+                width: 320px;
+                bottom: 10px;
+                right:10px;
+                background-color: gray;
+            }
+            .time{
+                position: absolute;
+                bottom: 6px;
+                right: 6px;
+                background-color: black;
+                color: white;
+                padding-right: 5px;
+                padding-left: 5px;
+                padding-top: 2px;
+                padding-bottom: 2px;
+                font-family: Roboto;
+            }
+        </style>
+    </head>
+    <body class="body">
+        
+        <div class="box">
+            <div class="x">X</div>
+            <div class="time">0.29</div>
+        </div>
+    </body>
+</html>

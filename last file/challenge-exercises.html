@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                height: 3000px;
+                background-color: rgba(0, 0, 0, 0.575);
+            }
+            .container{
+                position: relative;
+                display: inline-block;
+            }
+            .rick{
+                height:400px;
+            }
+            .OFF20{
+                background-color: black;
+                color:white;
+                position: absolute;
+                top: 10px;
+                right: 0;
+                height: 25px;
+                width: 90px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: Arial;
+                font-size: 15px;
+                border-radius: 2px;
+            }
+            .container2{
+                position: absolute;
+                bottom: -10px;
+                background-color: rgba(245, 245, 245, 0.637);
+                height: 200px;
+                width: 600px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .button{
+                height: 30px;
+                width: 100px;
+                border-width: 2px;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="container">
+                <img class="rick" src="rick.webp">
+                <div class="OFF20">20% OFF</div>
+                <div class="container2">
+                    <button class="button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

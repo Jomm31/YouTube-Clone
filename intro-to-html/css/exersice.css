@@ -1,0 +1,98 @@
+.model{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.wee{
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 90px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.back{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 6px;
+    padding-left: 6px;
+    cursor: pointer;
+}
+.next{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 6px;
+    padding-left: 6px;
+    cursor: pointer;
+}
+.one{
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    color:blueviolet
+}
+.two{
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    color:blueviolet
+}
+.three{
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    color:blueviolet
+}
+.four{
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    color:blueviolet
+}
+.five{
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    color:blueviolet
+}
+.stretch{
+    background-color: green;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    color: white;
+    transition: padding 1s;
+    cursor: pointer;
+}
+.stretch:hover{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right:20px;
+}
+.tahoma{
+    font-family: tahoma;
+    font-weight: bold;
+    
+}
+.dollar{
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+.usd{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 0;
+}
+.plus{
+    color:rgb(70, 117, 0);
+    margin-top: 0;
+}
+.hours{
+    color:gray;
+}
+.num{
+    color:red;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .thumbnail{
+                height: 80px;
+                width: 80px;
+                object-fit: cover;
+                object-position: bottom;
+                border-radius: 100px;
+                vertical-align: middle;
+            }
+            .text{
+                vertical-align: middle;
+                font-size: 20px;
+                border:none;
+            }
+            .tweet{
+                background-color: rgb(101, 162, 255);
+                color: white;
+                height: 30px;
+                width: 70px;
+                border:none;
+                border-radius: 20px;
+                font-weight: bold;
+                transition: box-shadow 0.5s;
+            }
+            .tweet:hover{
+                cursor:pointer;
+                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+            }
+            .tweet:active{
+                opacity: 0.5;
+            }
+        </style>
+    </head>
+    <body>
+        <img class="thumbnail" src="thumbnails/00-Divo_BUGATTI.jpg">
+        <input class="text" type="text" placeholder="What's happening?">
+        <button class="tweet">
+            Tweet
+        </button>
+        
+    </body>
+</html>
